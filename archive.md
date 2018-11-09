@@ -4,7 +4,7 @@ layout: page
 permalink: /posts/
 title: "Data Science/数据科学"
 crawlertitle: "All articles"
-summary: "Posts about jekyll"
+summary: "Journey for Data Science/通往数据科学"
 active: Data Science/数据科学
 ---
 
