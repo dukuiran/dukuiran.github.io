@@ -2,7 +2,7 @@
 bg: "tag.jpg"
 layout: page
 permalink: /posts/
-title: "Archive"
+title: "Data Science/数据科学"
 crawlertitle: "All articles"
 summary: "Posts about jekyll"
 active: archive
