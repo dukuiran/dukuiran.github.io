@@ -5,7 +5,7 @@ permalink: /posts/
 title: "Data Science/数据科学"
 crawlertitle: "All articles"
 summary: "Posts about jekyll"
-active: archive
+active: Data Science/数据科学
 ---
 
 {% for tag in site.tags %}
