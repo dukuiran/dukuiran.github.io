@@ -9,6 +9,14 @@
     <div class="cover-text">
       <div class="heading">
 
+        {% if page.tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
+          {% endfor %}
+        {% else %}
+          {{ page.title }}
+        {% endif %}
+
         <nav class="cover-navigation navigation--social">
           <ul class="navigation">
 
@@ -43,14 +51,6 @@
           </ul>
         </nav>
 
-
-        {% if page.tags %}
-          {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
-          {% endfor %}
-        {% else %}
-          {{ page.title }}
-        {% endif %}
 
       </div>
 
