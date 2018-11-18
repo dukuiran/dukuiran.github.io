@@ -12,6 +12,11 @@
       {% endif %}
     {% endfor %}
 
+    {% if site.twitter_username %}
+    <meta name="twitter:creator" content="{{ site.twitter_username }}">
+    {% endif %}
+
+
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
 
     <label for="menu-checkbox" class="toggle-button" data-open="☰" data-close="☰" onclick></label>
