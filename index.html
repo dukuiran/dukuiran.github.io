@@ -12,3 +12,11 @@ summary: "种一棵树最好的时候是十年前，其次是现在"
     {{ post.excerpt }}
   </article>
 {% endfor %}
+
+
+<ul>
+  {% if site.twitter_username %}
+  <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  {% endif %}
+  <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/favicons/favicon-194x194.png" />
+</ul>
