@@ -4,8 +4,8 @@ layout: page
 permalink: /posts/
 title: "数据科学/Data Science"
 crawlertitle: "All articles"
-summary: "data science"
-active: archive
+summary: "A Journy of Data Science"
+active: data Science
 ---
 
 {% for tag in site.tags %}
