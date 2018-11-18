@@ -18,8 +18,6 @@ disqus_username:
 
 RSS: false
 
-
-
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
