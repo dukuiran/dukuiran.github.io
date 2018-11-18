@@ -3,7 +3,7 @@ bg: "tag.jpg"
 layout: page
 permalink: /posts/
 title: "Data Science/数据科学"
-crawlertitle: "All articles"
+crawlertitle: "Data Science/数据科学"
 summary: "Journey of Data Science/通往数据科学"
 active: Data Science/数据科学
 ---
