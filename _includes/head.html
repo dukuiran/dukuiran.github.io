@@ -32,6 +32,16 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.summary }}">
 
+  {% if site.author.twitter_username %}
+    <!-- Twitter -->
+    <li class="navigation__item">
+      <a href="http://twitter.com/{{ site.author.twitter_username }}" title="@{{ site.author.twitter_username }} on Twitter" target="_blank">
+        <i class="icon icon-social-twitter"></i>
+        <span class="label">Twitter</span>
+      </a>
+    </li>
+  {% endif %}
+
   {% if page.bg %}
     <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
     <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
