@@ -1,0 +1,14 @@
+---
+bg: "rails.jpg"
+layout: default
+crawlertitle: "杜奎然 DU KUIRAN 博客 Blog"
+title: "杜奎然-DU KUIRAN"
+summary: "种一棵树最好的时候是十年前，其次是现在"
+---
+
+{% for post in site.posts limit: 5 %}
+  <article class="index-page">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  </article>
+{% endfor %}
