@@ -1,9 +1,16 @@
 <footer class="blog-footer content-wrapper">
   <p>&copy; <span class="full-year"></span> {{ site.title }}</p>
 
-  {% if site.twitter_username %}
+  <!-- {% if site.twitter_username %}
   <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  {% endif %} -->
+  {% if site.twitter_username %}
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username }}">
+        <i class="fa fa-twitter"></i> Twitter
+      </a>
+    </li>
   {% endif %}
-  
+
 </footer>
 <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
