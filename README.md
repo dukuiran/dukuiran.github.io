@@ -1,73 +1,45 @@
-## Voyager
+# jekyll-uno
 
-Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
-### Feathures:
+> :warning:
+  This theme requires ruby and rubygems installed
 
-All HTML files are compressed (see `_layouts/compress.html`).
+### Features
 
-**Post**
+* Clean layout
+* Resposive layout
+* Pagination
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
 
-All post settings can be changed. Example:
-
-```
 ---
-layout: post
-bg: '2016/background.jpg'
-title: "Post Heading"
-crawlertitle: "page title"
-summary: "post description"
-date: 2016-06-29
-tags : ['front-end']
-slug: post-url
-author: "Author"
-categories: posts
+
+### Install and Test
+
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `bundle exec jekyll serve --watch`
+
+Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
+
 ---
-```
 
-`bg` is a path to background of your article. By default backgrounds are placed in the `assets/images` directory.
+### Demo and Download
 
-**Page**
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
 
-If page contains `active` tag, it will be show on site menu.
+![jekyll-uno - free Jekyll theme](/screenshot.png)
 
-```
 ---
-layout: page
-title: "About"
-permalink: /about/
-active: about
----
-```
 
-**Archive**
+### Copyright and license
 
-Archive page is sorting posts by tags. No more than one tag in one post.
-
-Good:
-
-```
-tags : ['front-end']
-```
-
-Bad:
-
-```
-tags : ['front-end', 'jekyll']
-```
-
-Don't forget to change `_config.yml`.
-
-**Relative paths**
-
-If your blog is not in the root directory, you can include images with a relative path. For example:
-
-```
-![my_image]({{ site.images | relative_url }}/image.jpg)
-```
-
-## Production environment
-
-Build for production:
-
-`JEKYLL_ENV=production jekyll build`
+It is under [the MIT license](/LICENSE).
