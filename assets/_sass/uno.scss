@@ -875,6 +875,22 @@
 .icon-zoom-out:before {
 	content: "\f21a"; }
 
+::selection {
+	background: #fae3df; }
+
+::-moz-selection {
+	background: #fae3df; }
+
+a {
+	text-decoration: none;
+	color: #e25440; }
+	a:hover {
+		color: #b9301c;
+		-o-transition: .5s;
+		-ms-transition: .5s;
+		-moz-transition: .5s;
+		-webkit-transition: .5s; }
+
 .label {
 	position: relative;
 	display: inline-block;
@@ -987,13 +1003,13 @@ nav {
 			display: none; }
 		.navigation--social a .icon {
 			display: block;
-			font-size: 1em; }   //1.7em
+			font-size: 0.8em; }   //1.7em
 
 i {
 	font-family: 'entypo';
 	font-weight: normal;
 	font-style: normal;
-	font-size: 18px; }
+	font-size: 14px; }
 
 .icon-social {
 	font-family: 'entypo-social';
