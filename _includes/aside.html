@@ -30,6 +30,16 @@
             </li>
           {% endif %}
 
+          {% if site.linkedin_username %}
+            <!-- LinkedIn -->
+            <li class="navigation__item">
+              <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="{{ site.linkedin_username }} on LinkedIn" target="_blank">
+                <i class="icon icon-social-linkedin"></i>
+                <span class="label">LinkedIn</span>
+              </a>
+            </li>
+          {% endif %}
+
           {% if site.github_username %}
             <!-- GitHub -->
             <li class="navigation__item">
@@ -39,7 +49,7 @@
               </a>
             </li>
           {% endif %}
-          
+
           {% if site.email %}
             <!-- Email -->
             <li class="navigation__item">
