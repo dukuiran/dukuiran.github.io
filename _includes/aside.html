@@ -30,6 +30,16 @@
             </li>
           {% endif %}
 
+          {% if site.github_username %}
+            <!-- GitHub -->
+            <li class="navigation__item">
+              <a href="https://www.github.com/{{ site.github_username }}" title="{{ site.github_username }} on GitHub" target="_blank">
+                <i class="icon icon-social-github"></i>
+                <span class="label">GitHub</span>
+              </a>
+            </li>
+          {% endif %}
+          
           {% if site.email %}
             <!-- Email -->
             <li class="navigation__item">
