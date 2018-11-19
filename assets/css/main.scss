@@ -16,3 +16,10 @@
 @import "uno";
 @import "tables";
 @import "monokai";
+
+
+.btn,
+.navigation__item a {
+  margin: 5px 0;
+  white-space: nowrap;
+}
