@@ -11,7 +11,8 @@ email: dukuiran@gmail.com
 description: 杜奎然的空间
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
-url: "http://localhost:4000" # the base hostname & protocol for your site
+# url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "https://dukuiran.github.io/"
 twitter_username: Kuirandu
 github_username:  dukuiran
 linkedin_username: kuiran-du
@@ -26,6 +27,7 @@ future: true
 safe: false
 lsi: false
 excerpt_separator: "\n\n"
+rss: true
 
 # Theme settings
 compress_html:
