@@ -1,6 +1,7 @@
-## Voyager
+## 使用了模板Voyager
 
-Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
+你可以使用原版Demo: <http://redvi.github.io/voyager>
+当然你也可以Fork我的版本。
 
 ### Feathures:
 
