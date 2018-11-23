@@ -36,4 +36,8 @@ layout: default
 
   </div>
 
+  {% if site.disqus_username %}
+    {% include disqus_comments.html %}
+  {% endif %}
+
 </article>
