@@ -8,15 +8,16 @@ summary: "A Journy of Data Science"
 active: data Science
 ---
 
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
+<!-- {% for tag in site.tags %} -->
+  <!-- {% assign t = tag | first %} -->
+  <!-- {% assign posts = tag | last %} -->
 
-  <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
+  <!-- <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2> -->
 
   <ul class="year">
     {% for post in posts %}
-      {% if post.tags contains t %}
+      {% if post.tags contains 'data science' %}    
+      <!-- if post.tags contains t -->
         <li>
           {% if post.lastmod %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
@@ -30,4 +31,4 @@ active: data Science
     {% endfor %}
   </ul>
 
-{% endfor %}
+<!-- {% endfor %} -->
