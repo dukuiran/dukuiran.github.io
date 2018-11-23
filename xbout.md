@@ -4,7 +4,7 @@ layout: page
 title: "About/关于"
 crawlertitle: "杜奎然 DU KUIRAN"
 permalink: /about/
-summary: "About this blog"
+summary: "欢迎聊点有的没的"
 active: about
 ---
 

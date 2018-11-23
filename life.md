@@ -1,7 +1,7 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts/
+permalink: /freetalk/
 title: "想啥说啥/Free Talk"
 crawlertitle: "All articles"
 summary: "我们随便说点什么吧"

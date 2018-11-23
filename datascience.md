@@ -1,7 +1,7 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts/
+permalink: /datascience/
 title: "数据科学/Data Science"
 crawlertitle: "All articles"
 summary: "A Journy of Data Science"

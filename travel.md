@@ -1,7 +1,7 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts/
+permalink: /travel/
 title: "游记/travel"
 crawlertitle: "All articles"
 summary: "我们去过的那些地儿"
