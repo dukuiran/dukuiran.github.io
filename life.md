@@ -8,15 +8,16 @@ summary: "我们随便说点什么吧"
 active: free talk
 ---
 
-{% for tag in site.tags %}
+<!-- {% for tag in site.tags %}
   {% assign t = tag | first %}
-  {% assign posts = tag | last %}
+  {% assign posts = tag | last %} -->
 
-  <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
+  <!-- <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2> -->
 
   <ul class="year">
     {% for post in posts %}
-      {% if post.tags contains t %}
+      <!-- {% if post.tags contains t %} -->
+      {% if post.tags contains 'free talk' %}
         <li>
           {% if post.lastmod %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
@@ -30,4 +31,4 @@ active: free talk
     {% endfor %}
   </ul>
 
-{% endfor %}
+<!-- {% endfor %} -->
