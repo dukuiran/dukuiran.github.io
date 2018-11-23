@@ -1,5 +1,5 @@
 ---
-bg: "tag.jpg"
+bg: "travel.jpg"
 layout: page
 permalink: /travel/
 title: "游记/travel"

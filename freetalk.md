@@ -1,5 +1,5 @@
 ---
-bg: "tag.jpg"
+bg: "wzm.jpg"
 layout: page
 permalink: /freetalk/
 title: "想啥说啥/Free Talk"

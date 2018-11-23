@@ -1,5 +1,5 @@
 ---
-bg: "tag.jpg"
+bg: "travel.jpg"
 layout: post
 title:  "tims in kuwit"
 crawlertitle: "times in kuwait"
