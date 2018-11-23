@@ -5,7 +5,7 @@ title:  "tims in kuwit"
 crawlertitle: "times in kuwait"
 summary: "the funny things in kuwait"
 date:   2018-11-23 12:09:47 +0700
-categories: travel
+categories: posts
 tags: ['travel']
 author: 杜奎然
 comments: true
