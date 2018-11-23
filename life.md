@@ -16,7 +16,6 @@ active: free talk
 
   <ul class="year">
     {% for post in posts %}
-      <!-- {% if post.tags contains t %} -->
       {% if post.tags contains 'free talk' %}
         <li>
           {% if post.lastmod %}
@@ -30,5 +29,3 @@ active: free talk
       {% endif %}
     {% endfor %}
   </ul>
-
-<!-- {% endfor %} -->
